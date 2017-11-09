@@ -1,0 +1,3 @@
+planet-container/output/*
+planet-container/templates/cache/*
+*.tmplc
