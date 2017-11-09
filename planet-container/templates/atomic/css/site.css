@@ -1,0 +1,93 @@
+/* site-specific stuff here */
+
+body {
+  background: #333;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.8em;
+  overflow: scroll;
+}
+
+#masthead, #content {
+  box-shadow: 0px 0px 64px rgba(0,0,0, 0.5);
+}
+
+#masthead {
+  background: black;
+  padding: 1rem 1rem 1rem 2rem;
+  position: relative;
+}
+
+#masthead #logo {
+  height: calc(32px + 5vw);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 2rem;
+}
+
+#masthead span {
+  color: white;
+  text-shadow: 0px 3px 8px rgba(0, 0, 0, 1);
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-size: calc(12px + 4vw);
+  font-family: "League Gothic", sans-serif;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+#content {
+  background: #ffffff;
+  padding: 2rem;
+  /* border-radius: 7px; */
+}
+
+#content a, #content a:link, #content a:selected {
+  color: #008dd8;
+  text-decoration: none !important;
+}
+
+#content a:hover {
+  text-decoration: underline;
+}
+
+#content pre, #content code {
+  overflow-x: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "League Gothic", sans-serif;
+  font-weight: normal;
+}
+
+/* keep the embedded images within our container div */
+#content img, #content video, #content .item {
+  width: inherit;  /* This makes the next two lines work in IE8. */
+  max-width: 100%; /* Add !important if needed. */
+  height: auto;    /* Add !important if needed. */
+}
+
+.new_date {
+  border-bottom: 4px dotted #cccccc;
+  font-size: calc(12px + 1.2vmin);
+  font-weight: 600;
+  text-align: right;
+  margin-bottom: 1.2em;
+}
+
+.channel_name {
+  text-align: right;
+  font-family: "League Gothic", sans-serif;
+  font-size: 1.3em;
+}
+
+.post_title {
+  
+}
+
+.post_content {
+
+}
+
+
